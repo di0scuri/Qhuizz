@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="play_button">Play</string>
+    <string name="about_us_button">About Us</string>
+    <string name="total_questions">"Question Number: "</string>
+    <string name="question_text">This is the question</string>
+    <string name="choice_a">A</string>
+    <string name="choice_b">B</string>
+    <string name="choice_c">C</string>
+    <string name="choice_d">D</string>
+    <string name="submit_button">Submit</string>
+    <string name="final_grade">You got</string>
+</resources>

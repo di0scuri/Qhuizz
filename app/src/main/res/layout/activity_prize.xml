@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prize_header"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.Qhuizz.PrizeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="327dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="148dp"
+        android:gravity="center"
+        android:text="Choose one of the 3 random prizes"
+        android:textAllCaps="false"
+        android:textColor="#EAD83E"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/prize_1"
+        android:layout_width="129dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="324dp"
+        android:onClick="openPrize1"
+        android:text="1"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/prize_3"
+        android:layout_width="136dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="44dp"
+        android:onClick="openPrize3"
+        android:text="3"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prize_1" />
+
+    <Button
+        android:id="@+id/prize_2"
+        android:layout_width="125dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="324dp"
+        android:onClick="openPrize2"
+        android:text="2"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toEndOf="@+id/prize_1" />
+
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="HOME"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="returnHome"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
